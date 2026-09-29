@@ -8,7 +8,7 @@ body {
 
     div.container {
         width: 780px;
-        border: 1px dotted blue;
+        /*border: 1px dotted blue*/
         margin: 0 auto; /*tb rl */
         background-color: white;
 
@@ -84,7 +84,7 @@ body {
 
                         div.links{
                             margin: 130px auto 0;
-                            width: 153px;
+                            width: 200px;
                         }
                     }
 
@@ -99,6 +99,7 @@ body {
                             border-bottom: 2px dashed #a12d37;
                             font-size: 16px;
                             font-weight:normal;
+                            color: #505a2f;
                         }
 
                         p {
@@ -110,11 +111,18 @@ body {
 
                             &.link {
                                 text-align: right;
+                                a {
+                                    color: var(--uofred);
+                                    text-transform: uppercase;
+                                    text-decoration: none;
+
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
                             }
 
-                            a {
-                                color: var(--uofred);
-                            }
+
                         }
                     }
                 }
