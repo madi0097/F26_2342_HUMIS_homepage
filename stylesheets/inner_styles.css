@@ -48,6 +48,10 @@ body{
                                 background-color: #505a2f;
                                 color: white;
                             }
+
+                            &.active{
+                                font-weight: bold;
+                            }
                         }
                     }
 
