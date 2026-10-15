@@ -71,7 +71,7 @@ body{
                     flex-direction: column;
                     padding: 5px 20px;
 
-                    nav{
+                    nav.secondary{
                         display: flex;
                         justify-content: flex-end;
                         gap: 5px;
@@ -105,6 +105,7 @@ body{
                     }
 
                     main{
+                        min-height: 600px;
                         /*border: 1px dotted black;*/
                         img{
                             &.pull-right{
@@ -115,7 +116,7 @@ body{
                         }
 
                         h3 {
-                            color: red;
+                            /*color: red;*/
                             text-transform: uppercase;
                             font-size: 17px;
                         }
