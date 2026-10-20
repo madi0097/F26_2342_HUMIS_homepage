@@ -1,3 +1,7 @@
+@import 'images.css';
+@import 'typography.css';
+@import 'layouts.css';
+
 :root{
     --green: #676e3d
 }
