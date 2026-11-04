@@ -34,6 +34,7 @@ section.horizontal-two-column-layout {
                         font-size: 0.7rem;
                         margin-bottom:0.2rem;
 
+
                         &:hover{
                             text-decoration: underline;
                         }
@@ -49,8 +50,6 @@ section.horizontal-two-column-layout {
                             margin-left: 10px;
                         }
                     }
-
-
 
                 }
             }
@@ -83,11 +82,12 @@ section.horizontal-two-column-layout {
             &.right-column {
                 width: 70%;
             }
+
         }
     }
 }
 
-section.contact-form{
+form.contact-form{
     margin-top: 5rem;
     border: 4px solid green;
     display: flex;
@@ -99,3 +99,6 @@ section.contact-form{
         gap: 1rem;
     }
 }
+
+
+

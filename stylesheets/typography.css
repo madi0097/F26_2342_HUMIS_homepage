@@ -15,12 +15,13 @@ body {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         border-bottom: 6px solid var(--burgundy);
+        text-align: center;
     }
 
     h2{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     h3{
@@ -72,6 +73,14 @@ body {
 
         }
     }
+}
 
-
+main{
+    aside.right-column{
+        a {
+            font-size: 10px;
+            text-transform: uppercase;
+            color: var(--burgundy);
+        }
+    }
 }
