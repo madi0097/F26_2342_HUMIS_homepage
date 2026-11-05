@@ -52,6 +52,21 @@ section.horizontal-two-column-layout {
                     }
 
                 }
+                div.new{
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-size:0.6rem;
+                        margin-bottom:0.2rem;
+
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                }
             }
 
             div.bottom {
@@ -78,11 +93,12 @@ section.horizontal-two-column-layout {
                         }
                 }
             }
-
-            &.right-column {
-                width: 70%;
-            }
-
+        }
+        &.right-column {
+            width: 70%;
+            border-left: 1px dotted grey;
+            padding-left: 30px;
+            height: 600px;
         }
     }
 }

@@ -18,6 +18,7 @@ body {
         font-size: 2rem;
         border-bottom: 6px solid var(--burgundy);
         text-align: center;
+        margin-top: 20px;
     }
 
     h2{
@@ -35,22 +36,24 @@ body {
 
     h5{
         font-size: 1.25rem;
+        margin-top: 20px;
     }
 
     h6{
         font-size: 1rem;
         margin-bottom: 0;
+        margin-top:20px;
     }
 
     .head{
-        margin-left:15px;
+        margin-left: 7px;
     }
 
 
     p{
         text-align: justify;
-        font-size: 0.75rem;
-        margin-left: 15px;
+        font-size: 0.69rem;
+        margin-left: 5px;
 
         &.learn-more{
             text-align: right;
@@ -77,10 +80,60 @@ body {
 
 main{
     aside.right-column{
-        a {
-            font-size: 10px;
+        .student {
+
+            p {
+                margin-right: 15px;
+                text-align: justify;
+            }
+
+            a {
+                font-size: 10px;
+                text-transform: uppercase;
+                color: var(--burgundy);
+                margin-left: 10px;
+                font-weight: bold;
+            }
+        }
+    }
+    .show{
+        margin-left: 5px;
+
+        h4 {
+            font-size: 1rem;
+            margin-top: 20px;
+            margin-bottom: 7px;
+            color: red;
+            font-weight: bold;
+
+        }
+        h5{
+            font-size: 0.8rem;
+            margin-top:0;
+            margin-bottom: 0;
+            color: red;
             text-transform: uppercase;
-            color: var(--burgundy);
+        }
+
+        h6{
+            font-size: 0.8rem;
+            margin-top:0;
+            color:red;
+        }
+    }
+
+    .new{
+        margin-left:5px;
+        h4 {
+            margin-top:10px;
+            font-size: 1rem;
+            color: black;
+            margin-bottom:0;
+        }
+
+        p{
+            margin-top:0;
         }
     }
 }
+
