@@ -2,6 +2,7 @@ section.horizontal-two-column-layout {
     /*border: 3px dashed grey;*/
     display: flex;
     min-height: 100%;
+    height: auto;
     /*padding: 10px;*/
     gap: 1rem;
 
@@ -52,7 +53,7 @@ section.horizontal-two-column-layout {
                     }
 
                 }
-                div.new{
+                div.news{
                     a {
                         display: block;
                         text-decoration: none;
@@ -60,12 +61,30 @@ section.horizontal-two-column-layout {
                         font-size:0.6rem;
                         margin-bottom:0.2rem;
 
-
                         &:hover {
                             text-decoration: underline;
                         }
                     }
 
+                }
+
+                div.graduate{
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-size:0.6rem;
+                        margin-bottom:0.2rem;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+
+                        span.grad{
+                            font-size: 0.7rem;
+                            font-weight: bold;
+                        }
+                    }
                 }
             }
 
@@ -82,23 +101,30 @@ section.horizontal-two-column-layout {
                         }
                     }
 
-                        a {
-                            display: block;
-                            text-decoration: none;
-                            color: black;
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        color: black;
 
-                            &:hover {
-                                text-decoration: underline;
-                            }
+                        &:hover {
+                            text-decoration: underline;
                         }
+                    }
                 }
             }
         }
         &.right-column {
             width: 70%;
             border-left: 1px dotted grey;
-            padding-left: 30px;
-            height: 600px;
+            padding-left: 15px;
+            height: auto;
+
+            .student{
+                .date{
+                    font-weight: bold;
+                    font-size: 0.8rem;
+                }
+            }
         }
     }
 }

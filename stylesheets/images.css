@@ -1,41 +1,45 @@
-main{
+main {
 
-    aside.pull{
+    aside.pull {
         /*border: 5px solid orange;*/
         display: inline-block;
         max-width: 150px;
 
-        >img{
+        > img {
             width: 100%;
             border-radius: 10px;
         }
 
-        &.left{
+        &.left {
             float: left;
             margin: 0 15px 15px 0;
 
         }
 
-        &.right{
+        &.right {
             float: right;
             margin: 0 0 5px 15px;
         }
 
-        h6{
+        h6 {
             text-align: center;
         }
 
-        &:hover{
-            h6{
+        &:hover {
+            h6 {
                 text-decoration: underline;
             }
         }
     }
-    aside.right-column{
 
-            >img{
+    aside.right-column {
+        .student {
+
+            > img {
                 width: 100%;
                 border-radius: 10px;
             }
         }
+
     }
+}

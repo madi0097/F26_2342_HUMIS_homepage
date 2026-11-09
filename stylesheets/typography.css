@@ -83,7 +83,6 @@ main{
         .student {
 
             p {
-                margin-right: 15px;
                 text-align: justify;
             }
 
@@ -94,11 +93,18 @@ main{
                 margin-left: 10px;
                 font-weight: bold;
             }
+
+            h6 {
+                font-size: 13px;
+                color: red;
+
+                .advising {
+                    color: black;
+                }
+            }
         }
     }
     .show{
-        margin-left: 5px;
-
         h4 {
             font-size: 1rem;
             margin-top: 20px;
@@ -108,24 +114,25 @@ main{
 
         }
         h5{
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             margin-top:0;
             margin-bottom: 0;
             color: red;
             text-transform: uppercase;
+            font-weight: lighter;
         }
 
         h6{
-            font-size: 0.8rem;
+            font-size: 0.7rem;
+            font-weight: lighter;
             margin-top:0;
             color:red;
         }
     }
 
     .new{
-        margin-left:5px;
         h4 {
-            margin-top:10px;
+            margin-top:15px;
             font-size: 1rem;
             color: black;
             margin-bottom:0;
@@ -133,6 +140,17 @@ main{
 
         p{
             margin-top:0;
+        }
+    }
+
+    .news{
+        margin-top: 15px;
+        h2 {
+            color: red;
+            margin-bottom: 0.5rem;
+        }
+        a{
+            margin-top: 0;
         }
     }
 }
