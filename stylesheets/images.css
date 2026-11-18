@@ -5,6 +5,13 @@ main {
         display: inline-block;
         max-width: 150px;
 
+        &.left1{
+            > img{
+                width: 20px;
+                display: block;
+            }
+        }
+
         > img {
             width: 100%;
             border-radius: 10px;
@@ -19,6 +26,13 @@ main {
         &.right {
             float: right;
             margin: 0 0 5px 15px;
+        }
+
+        &.right1{
+            float: right;
+            width:25%;
+
+            margin-top: 20px;
         }
 
         h6 {

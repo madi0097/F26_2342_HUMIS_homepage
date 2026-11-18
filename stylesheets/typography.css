@@ -102,8 +102,70 @@ main{
                     color: black;
                 }
             }
+
+            .course{
+                color:black;
+                font-weight: bold;
+            }
+
         }
+
+        .annoucements{
+
+            .calendar{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            h6 {
+                text-align: left;
+                font-size: 13px;
+                text-transform: uppercase;
+                color: red;
+                margin: 0;
+
+            }
+
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+
+                .annouce{
+                    display: inline-block;
+                    color: black;
+                    font-weight: bold;
+                    margin-top: 10px;
+                }
+
+                .annouce1 {
+                    display: inline-block;
+                    color: black;
+                    font-weight: bold;
+                    margin-top: 12px;
+                }
+
+                .annouce2 {
+                    margin-top: 0;
+                    color: black;
+                }
+
+                .annouce3 {
+                    display: inline-block;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+
+                .link{
+                    color: red;
+                    font-weight: bold;
+                }
+        }
+
     }
+}
     .show{
         h4 {
             font-size: 1rem;
@@ -153,5 +215,5 @@ main{
             margin-top: 0;
         }
     }
-}
+
 

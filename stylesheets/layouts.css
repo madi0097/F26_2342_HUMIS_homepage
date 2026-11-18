@@ -8,13 +8,6 @@ section.horizontal-two-column-layout {
 
     aside {
 
-        &:last-of-type {
-            border-left: none;
-            padding-left: unset;
-            border-left: 1px dotted grey;
-
-        }
-
         &.left-column {
             width: 30%;
 
@@ -27,6 +20,18 @@ section.horizontal-two-column-layout {
             }
 
             div.top{
+                h6{
+                    color: red;
+                }
+
+                div.news{
+                    a {
+                        &.active {
+                            font-weight: bold;
+                        }
+                    }
+                }
+
                 div.category{
                     a{
                         display:block;
@@ -34,13 +39,14 @@ section.horizontal-two-column-layout {
                         color: black;
                         font-size: 0.7rem;
                         margin-bottom:0.2rem;
+                        margin-top: 0.5rem;
 
 
                         &:hover{
                             text-decoration: underline;
                         }
 
-                        &.active{
+                        &.active {
                             font-weight: bold;
                         }
                     }
@@ -98,6 +104,10 @@ section.horizontal-two-column-layout {
                         &.name {
                             font-weight: bold;
                             font-size: 0.6rem;
+                        }
+
+                        &.title{
+                            font-weight: bold;
                         }
                     }
 
