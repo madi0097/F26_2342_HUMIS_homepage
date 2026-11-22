@@ -71,6 +71,21 @@ section.horizontal-two-column-layout {
                             text-decoration: underline;
                         }
                     }
+                }
+
+                div.new1{
+                    width: 180px;
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-size:0.6rem;
+                        margin-bottom:0.2rem;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
 
                 }
 
@@ -133,6 +148,49 @@ section.horizontal-two-column-layout {
                 .date{
                     font-weight: bold;
                     font-size: 0.8rem;
+                }
+            }
+
+            .friends{
+                a{
+                    font-size: 0.7rem;
+                    text-decoration: none;
+                    color:red;
+                    margin-top: 0;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+            }
+
+            .annoucements{
+                a {
+                    text-decoration: none;
+                    color:red;
+                    margin-top: 0;
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .calendar{
+                a{
+                    text-align: left;
+                    text-decoration: none;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    color: red;
+                    margin: 0;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
                 }
             }
         }

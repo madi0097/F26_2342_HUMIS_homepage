@@ -1,3 +1,11 @@
+header{
+    img{
+        max-width: 100%;
+        border-bottom: #676e3d 7px solid;
+    }
+}
+
+
 main {
 
     aside.pull {

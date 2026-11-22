@@ -2,6 +2,7 @@
     --burgundy : #a12d37;
     --dark : #000;
 }
+
 body {
     font-size:16px;
 
@@ -78,12 +79,13 @@ body {
     }
 }
 
-main{
-    aside.right-column{
+main {
+    aside.right-column {
         .student {
 
             p {
                 text-align: justify;
+                font-size: 0.80rem;
             }
 
             a {
@@ -103,16 +105,16 @@ main{
                 }
             }
 
-            .course{
-                color:black;
+            .course {
+                color: black;
                 font-weight: bold;
             }
 
         }
 
-        .annoucements{
+        .annoucements {
 
-            .calendar{
+            .calendar {
                 display: flex;
                 align-items: center;
                 gap: 10px;
@@ -128,15 +130,16 @@ main{
 
             }
 
-            p{
+            p {
+                font-size: 0.80rem;
                 margin-top: 0;
                 margin-bottom: 0;
 
-                .annouce{
+                .annouce {
                     display: inline-block;
                     color: black;
                     font-weight: bold;
-                    margin-top: 10px;
+                    margin-top: 20px;
                 }
 
                 .annouce1 {
@@ -158,15 +161,47 @@ main{
                 }
             }
 
-                .link{
-                    color: red;
+        }
+
+        .friends {
+
+            h5 {
+                color: red;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 0.80rem;
+                margin-bottom:0;
+
+                .friends1 {
+                    display: inline-block;
+                    margin-top: 10px;
+                }
+
+                .friends2{
+                    margin-bottom: 0;
+                }
+
+                .james{
                     font-weight: bold;
                 }
+
+                .Dean{
+                    font-weight: bold;
+                }
+
+
+            }
+
         }
 
     }
-}
-    .show{
+
+
+    .show {
         h4 {
             font-size: 1rem;
             margin-top: 20px;
@@ -175,45 +210,67 @@ main{
             font-weight: bold;
 
         }
-        h5{
+
+        h5 {
             font-size: 0.7rem;
-            margin-top:0;
+            margin-top: 0;
             margin-bottom: 0;
             color: red;
             text-transform: uppercase;
             font-weight: lighter;
         }
 
-        h6{
+        h6 {
             font-size: 0.7rem;
             font-weight: lighter;
-            margin-top:0;
-            color:red;
+            margin-top: 0;
+            color: red;
         }
     }
 
-    .new{
+    .new {
         h4 {
-            margin-top:15px;
+            margin-top: 15px;
             font-size: 1rem;
             color: black;
-            margin-bottom:0;
+            margin-bottom: 0;
         }
 
-        p{
-            margin-top:0;
+        p {
+            margin-top: 0;
         }
     }
 
-    .news{
+    .news {
         margin-top: 15px;
+
         h2 {
             color: red;
             margin-bottom: 0.5rem;
         }
-        a{
+
+        a {
             margin-top: 0;
         }
     }
+
+    .new1 {
+        margin-top: 20px;
+
+        h2 {
+            color: red;
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            margin-top: 0;
+
+            .alumni {
+                font-size: 8px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
 
 
